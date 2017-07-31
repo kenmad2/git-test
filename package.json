@@ -1,0 +1,26 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is the Git and Node basic learning project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenmad2/git-test"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/kenmad2/git-test/blob/master/README",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "@angular/core": "^4.3.2",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.16"
+  }
+}
